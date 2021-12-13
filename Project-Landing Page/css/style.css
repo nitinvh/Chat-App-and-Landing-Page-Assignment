@@ -1,0 +1,162 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  overflow-y: scroll;
+  scrollbar-color: rgba(100, 110, 110, 0.2) rgba(255, 240, 240, 0.5);
+}
+
+body::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(255, 240, 240, 0.5);
+  border-radius: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 110, 110, 0.2);
+  border: 0.35rem solid rgba(255, 240, 240, 0.5);
+  border-radius: 0.5rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("https://img.icons8.com/material-outlined/24/000000/drag-list-down.png");
+}
+
+#l1 {
+  padding-top: 1rem;
+}
+
+.sp {
+  padding-right: 2.4rem;
+}
+
+.nav-link img {
+  width: 20px;
+}
+
+.lp {
+  margin-top: 12rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 14vh;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+#search {
+  margin-top: 5rem;
+  text-align: center;
+  width: 37rem;
+  height: 3.5rem;
+}
+
+#search input {
+  border-color: black;
+  border-width: 2px;
+}
+
+#search span {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-width: 2px;
+}
+
+#searchb {
+  margin-top: 5rem;
+  text-align: center;
+  width: 31rem;
+  height: 3.5rem;
+}
+
+#searchb input {
+  border-color: black;
+  border-width: 2px;
+}
+
+#searchb span {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-width: 2px;
+}
+
+#sp_tex {
+  margin-top: 20rem;
+}
+
+#workspace {
+  background-color: #e2e21c;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#features {
+  margin-top: 12rem;
+}
+
+.butt {
+  background-color: white;
+}
+
+.hov:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hov:hover .butt:hover {
+  background-color: black;
+}
+
+.gap {
+  text-align: center;
+  margin-top: 9rem;
+}
+
+.gp {
+  margin-top: 3rem;
+}
+
+#clr {
+  background-color: #b4f1b4;
+}
+
+#pr {
+  margin-top: 6rem;
+  padding: 4rem;
+}
+
+#pr:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.mar {
+  margin-top: 10rem;
+}
+
+.rock {
+  padding-left: 6rem;
+}
+
+#lst {
+  margin-top: 15rem;
+  background-color: #f9f9f9;
+}
+
+#foot {
+  margin-top: 10rem;
+}
+
+#footr {
+  padding: 5rem;
+  padding-left: 10rem;
+}
+/*# sourceMappingURL=style.css.map */
